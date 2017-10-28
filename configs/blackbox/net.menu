@@ -1,0 +1,13 @@
+[begin] (Menu)
+
+  [submenu] (browser)
+    [exec] (firefox) {firefox}
+  [end]
+
+
+  [submenu] (rss)
+    [exec] (liferea/rss)     {liferea}
+  [end]
+
+  [exec] (exit)    {cp ~/.blackbox/main.menu ~/.blackbox/menu}
+[end]

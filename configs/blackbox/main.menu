@@ -1,0 +1,19 @@
+[begin] (Menu)
+  [exec] (~/)     {thunar}
+  [exec] (terminal)     {mate-terminal}
+  [exec] (#terminal)     {mate-terminal -e su -}
+
+
+  [exec] (firefox) {firefox}
+  [exec] (gvim)     {gvim}
+
+
+  [submenu] (...)              {...more...}
+    [exec] (system)    {cp ~/.blackbox/system.menu ~/.blackbox/menu}
+    [exec] (code)    {cp ~/.blackbox/code.menu ~/.blackbox/menu}
+    [exec] (office)    {cp ~/.blackbox/office.menu ~/.blackbox/menu}
+    [exec] (net)    {cp ~/.blackbox/net.menu ~/.blackbox/menu}
+  [end]
+
+  [exit] (Exit)
+[end]
